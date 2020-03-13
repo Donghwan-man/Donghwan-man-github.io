@@ -1,17 +1,29 @@
-title
-image
-description
-Service Release 8.5
-/assets/img/blog/louis-hansel.jpg
-Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works. 
-Service release 8.5 includes a number of obvious improvements made possible by changes in the way the web works.
-Better Dark Mode
-This service release includes a major improvement to dark mode, which is now matching the operating system's default. This is already possible in Safari, and just this week a new version of Chrome shipped with this feature as well.
-Better Cover Pages
-Scrolling on a cover page will now close the drawer. This makes the cover page much more useable since it will no longer confuse to new visitors. This is especially true for desktops, where swiping horizontally isn't a typical interaction pattern. A future version of Hydejack could link the extension of the drawer the the scroll position, similar to how many marketing sites work these days.
-Better Font Loading
-The awkward JS-based font loading mechanism is gone and now replaced by font-display: swap. Support for this in Google Fonts landed earlier this year and is now used by Hydejack. As a side effect, fonts are now properly displayed in IE11 again, greatly improving backwards compatibility of the theme.
-There are many more smaller changes and bugfixes. As always, yo can read the full patch notes in the CHANGELOG{:.heading.flip-title}.
-What's Next?
-8.6 will include a rewrite of the drawer, dynamic page loading, and image lazy-loading components. These are new written with TypeScript and LitElement for better code quality, browser integration, and future-proofness. The rewrites also include many bug fixes and performance improvements.
-While I would also like to do a v9 (and accompanying price hike), most of the work I've done on it is now on the 8.5 and 8.6 tracks.
+---
+layout: post
+title: Sample post
+tags: [A Tag, Test, Lorem, Ipsum]
+excerpt_separator: <!--more-->
+---
+
+Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
+Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. 
+<!--more-->
+Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.
+
+* Consectetur adipiscing elit
+* Donec a diam lectus
+* Sed sit amet ipsum mauris
+
+Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+
+Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula *semper consectetur sagittis*, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.
+
+![Travel]({{ "/assets/img/pexels/travel.jpeg" | relative_url}})
+
+Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.
+
+> Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque
+
+Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.
+
+Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.
